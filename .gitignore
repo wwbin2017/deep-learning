@@ -1,0 +1,5 @@
+word2vec/.idea/
+word2vec/data/
+word2vec/doc2vec.pyc
+word2vec/model/
+word2vec/*.pyc
