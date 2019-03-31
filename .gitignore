@@ -3,3 +3,11 @@ word2vec/data/
 word2vec/doc2vec.pyc
 word2vec/model/
 word2vec/*.pyc
+
+word_seg/data
+word_seg/model/model_data/
+word_seg/.idea/
+word_seg/model/__init__.py
+word_seg/model/data_preprocess.pyc
+word_seg/model/dictionary/
+
