@@ -71,7 +71,7 @@ def data_tranform(time_step, word_id):
 
 
 class ConfigArgs(object):
-    """分词参数配置"""
+    """POS参数配置"""
     label_size = 89  # 类别数
     init_scale = 0.01  # 相关参数的初始值为随机均匀分布，范围是[-init_scale,+init_scale]
     learning_rate = 1e-3  # 学习速率,在文本循环次数超过max_epoch以后会逐渐降低
