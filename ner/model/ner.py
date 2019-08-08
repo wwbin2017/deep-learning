@@ -72,7 +72,7 @@ def data_tranform(time_step, word_id):
 
 
 class ConfigArgs(object):
-    """分词参数配置"""
+    """NER参数配置"""
     label_size = 22  # 类别数
     init_scale = 0.01  # 相关参数的初始值为随机均匀分布，范围是[-init_scale,+init_scale]
     learning_rate = 1e-3  # 学习速率,在文本循环次数超过max_epoch以后会逐渐降低
@@ -90,7 +90,7 @@ class ConfigArgs(object):
 
 class NER(object):
     """
-    分词
+    NER
     """
 
     def __init__(self, config, is_training, embedding_char=None):
